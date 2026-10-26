@@ -161,6 +161,7 @@ a { color: var(--action); }
 .bio-head { display: flex; align-items: center; gap: 20px; }
 .bio-head img { flex: none; width: 112px; height: 112px; border-radius: 999px; object-fit: cover; }
 .bio h3 { font-family: var(--font-display); font-weight: 600; font-size: 28px; line-height: 1.1; }
+.bio-loc { font-size: 15px; color: var(--text-muted); margin-top: 6px; }
 .bio-link { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 600; }
 .bio p { color: var(--text-body); }
 

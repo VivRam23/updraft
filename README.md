@@ -47,7 +47,6 @@ Netlify or Vercel work the same way: no build command, publish directory is the 
 
 ## Open items
 
-- [ ] Location line under each bio (cities to confirm)
 - [ ] Estee's Hanergy figure in USD (currently £7M)
 - [ ] Shared contact email for the footer
 - [ ] Analytics: add Plausible or GA4 in `<head>`. Events are already wired: `cta_click`, `linkedin_click`, `faq_open`
