@@ -37,10 +37,10 @@ python3 -m http.server 8000
 
 ## Deploy (Cloudflare Pages)
 
-1. In Cloudflare: **Workers & Pages → Create → Pages → Connect to Git**, then pick `VivRam23/updraft-site`.
+1. In Cloudflare: **Workers & Pages → Create → Pages → Connect to Git**, then pick `VivRam23/updraft`.
 2. Build settings: framework **None**, build command **empty**, output directory **`/`**.
-3. Deploy. The site goes live at `https://updraft-site.pages.dev`.
-4. Custom domain: **Custom domains → Set up a domain**. Then replace `updraft-site.pages.dev` in
+3. Deploy. The site goes live at `https://updraft.pages.dev` (Cloudflare adds a suffix if that name is taken; use whatever address it gives you in the step below).
+4. Custom domain: **Custom domains → Set up a domain**. Then replace `updraft.pages.dev` in
    `index.html` (canonical, og:url, og:image, structured data), `robots.txt` and `sitemap.xml`.
 
 Netlify or Vercel work the same way: no build command, publish directory is the repo root.
