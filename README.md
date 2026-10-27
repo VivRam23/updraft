@@ -40,8 +40,9 @@ python3 -m http.server 8000
 1. In Cloudflare: **Workers & Pages → Create → Pages → Connect to Git**, then pick `VivRam23/updraft`.
 2. Build settings: framework **None**, build command **empty**, output directory **`/`**.
 3. Deploy. The site goes live at `https://updraft.pages.dev` (Cloudflare adds a suffix if that name is taken; use whatever address it gives you in the step below).
-4. Custom domain: **Custom domains → Set up a domain**. Then replace `updraft.pages.dev` in
-   `index.html` (canonical, og:url, og:image, structured data), `robots.txt` and `sitemap.xml`.
+4. Custom domain: **Custom domains → Set up a custom domain**, add `updraftclimate.co` and `www.updraftclimate.co`.
+   The domain is written into `index.html` (canonical, og:url, og:image, structured data), `robots.txt` and `sitemap.xml`;
+   update those if it ever changes.
 
 Netlify or Vercel work the same way: no build command, publish directory is the repo root.
 
@@ -50,7 +51,7 @@ Netlify or Vercel work the same way: no build command, publish directory is the 
 - [ ] Estee's Hanergy figure in USD (currently £7M)
 - [ ] Shared contact email for the footer
 - [ ] Analytics: add Plausible or GA4 in `<head>`. Events are already wired: `cta_click`, `linkedin_click`, `faq_open`
-- [ ] Domain: buy, connect, then update the URLs listed above
+- [x] Domain: updraftclimate.co
 - [ ] Logo permission from each company; sharper source files for NewMotion and Hanergy
 - [ ] Iris to add the yellow-on-dark text and warm grey to the brand guidelines and issue tokens
 - [ ] Answers ready for the two Capture6 claims (four industrial projects; 4× inbound on under $20K)
