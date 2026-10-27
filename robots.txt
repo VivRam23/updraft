@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://updraft.pages.dev/sitemap.xml
